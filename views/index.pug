@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    //- h1 My Site
+    //- p Welcome to my super lame site.
+    script
+      include ../static/index.js  
+    nav#navbar.navbar.navbar-expand-lg.navbar-light.bg-light
+      ul 
+        img(src="../static/logo.jpg")
+        li #[a(href='/') Home] 
+        li #[a(href='/') About] 
+        li #[a(href='/') Contact Us] 
+        li #[a(href='/') Class Info]
+        li #[a(href='/') Our Services]
+ 
+    section#introsection 
+       div Welcome To The Dance World!
+       div.small The Most Cheapest Therapy!!!
+    section#missionsection 
+       h2 Our Mission  
+       div.card 
+         h3 Dance is an art that imprints on the soul
+            div.card-box
+              div.card-img   
+                img(src="../static/kathak.jpg")
+              div.card-content
+                 p Take more chances, dance more dances.   
+       div.card 
+         h3 Dancing is like dreaming with your feet!
+             div.card-box
+              div.card-img   
+                img(src="../static/Contemporary.jpg")
+              div.card-content
+                 p Get up off of that thing.   
+       div.card 
+         h3 The body says what words cannot.
+             div.card-box
+              div.card-img   
+                img(src="../static/bihu.jpg")
+              div.card-content
+                 p There are shortcuts to happiness and dancing is one of them.   
+    section#sponsersection 
+       h2 Our Sponsers 
+         div.spimages
+            img(src="../static/apple.jpg", alt="")      
+            img(src="../static/hcl.png", alt="")      
+            img(src="../static/skype.jpg", alt="")      
+            img(src="../static/microsoft.jpg", alt="")      
+            
+    section#footersection         
+        | Copyright © 2019 ShiviAcademy.com | All Rights Reserved  || 9458707XXXX

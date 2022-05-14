@@ -1,0 +1,172 @@
+/* //reset */
+*
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+/* //Styling for navbar */
+#navbar
+{
+    padding: 1px;
+    background-color:black;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+    font-weight:200;
+    color: aliceblue;
+    align-items: center;
+}
+ #navbar ul img
+ {
+    height: 45px;
+    width: 44px;
+    margin: 1px;
+    padding: 2px;
+    filter: invert(1);
+ }
+li
+{
+    padding:5px;
+    margin: 6px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+a:hover
+{
+    color: black;
+}
+/* Styling for intro section */
+
+#introsection
+{
+    height: 300px;
+    width: 100%;
+    background: center/cover no-repeat url("../static/Images/dancebg.jpg") ;
+    z-index: -1;
+    opacity: 0.9;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+#introsection .small
+{
+    font-size: 1rem;
+}
+
+
+/* Styling for mission section */
+#missionsection
+{
+    height: 30%;
+    color: black;
+    background-color: rgb(245, 236, 238);
+    margin: auto;
+    justify-content: center;
+   
+}
+#missionsection h2{
+    text-align: center;
+    
+}
+#missionsection .card
+{  
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 27px;
+    margin: 47px;
+    padding: 23px;
+    height: 140px;
+    width: 397px;
+
+}
+   
+#missionsection .card h3{
+
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+/* .card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+.card-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-img img
+{
+    height: 127px;
+    width:100px;
+    padding: 0 14px;
+    margin: 5px 9px;
+
+}
+.card-box p
+{
+    font-size: x-small;
+}
+/* //Styling sponsers section */
+#sponsersection
+{
+    /* height: 30%; */
+    color: black; 
+    background-color: white;
+    margin: auto;
+       
+}
+#sponsersection h2
+{
+    text-align: center;
+}
+#sponsersection .spimages
+{
+   
+    padding: 8px 67px;
+  
+}
+
+#sponsersection .spimages img
+{   
+    display: inline-block;
+    height: 10%;
+    width: 10%;
+    margin: 5px 60px ;
+    
+}
+
+#footersection
+{
+ 
+    color: white;
+    background-color: black;
+    text-align: center;
+       
+        height: 35px;
+        width: 100%;
+        position: sticky;
+        top: 100%;
+   
+}

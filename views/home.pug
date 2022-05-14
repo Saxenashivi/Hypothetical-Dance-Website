@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/index.js')
+
+block style
+    style
+     include ../static/style.css
+     include ../static/phone.css
+
+block content 
+    section#introsection 
+       div Welcome To The Dance World!
+       div.small The Most Cheapest Therapy!!!
+    section#missionsection 
+       h2 Our Mission  
+       div.card 
+         h3 Dance is an art that imprints on the soul
+            div.card-box
+              div.card-img   
+                img(src="../static/Images/kathak.jpg")
+              div.card-content
+                 p Take more chances, dance more dances.   
+       div.card 
+         h3 Dancing is like dreaming with your feet!
+             div.card-box
+              div.card-img   
+                img(src="../static/Images/Contemporary.jpg")
+              div.card-content
+                 p Get up off of that thing.   
+       div.card 
+         h3 The body says what words cannot.
+             div.card-box
+              div.card-img   
+                img(src="../static/Images/bihu.jpg")
+              div.card-content
+                 p There are shortcuts to happiness and dancing is one of them.   
+    section#sponsersection 
+       h2 Our Sponsers 
+         div.spimages
+            img(src="../static/Images/apple.jpg", alt="")      
+            img(src="../static/Images/hcl.png", alt="")      
+            img(src="../static/Images/skype.jpg", alt="")      
+            img(src="../static/Images/microsoft.jpg", alt="")  

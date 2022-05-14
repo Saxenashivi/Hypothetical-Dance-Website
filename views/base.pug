@@ -1,0 +1,22 @@
+doctype
+html
+  head
+    title My Site - #{title}
+    block scripts
+      script(src='index.js')
+    block style
+      style
+       include ../static/style.css
+  body
+     nav#navbar.navbar.navbar-expand-lg.navbar-light.bg-light
+          ul 
+            img(src="../static/Images/logo.jpg")
+            li #[a(href='/') Home] 
+            li #[a(href='/') About] 
+            li #[a(href='/contact') Contact Us] 
+            li #[a(href='/') Class Info]
+            li #[a(href='/') Our Services]
+  block content
+  block foot
+      section#footersection         
+        | Copyright © 2019 ShiviAcademy.com | All Rights Reserved  || 9458707XXXX
